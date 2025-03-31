@@ -1,75 +1,131 @@
-# AtliQ Hardware Excel-Project
+# 📊 AtliQ Hardware Excel Project
 
 ## 📌 Project Description
-This project analyzes customer and market performance data for AtliQ Hardwares across multiple years (2019-2021). It provides insights into sales trends, customer growth, and revenue distribution across different stores and platforms.
+This project analyzes customer and market performance data for **AtliQ Hardwares** (2019-2021). It provides insights into **sales trends, customer growth, and revenue distribution** across different stores and platforms.
 
-### Sales Analysis:
-This report evaluates customer net sales growth (2019–2021) and customer sales performance (2019 -2021) to identify high-value customers, sales trends, and growth opportunities.
+---
 
-### Objective:
-•⁠  ⁠Tracks year-over-year (YoY) net sales per customer.
+## 🔍 Sales Analysis
+**Objective:**
+- Tracks **year-over-year (YoY) net sales per customer**.
+- Highlights **% growth (2021 vs. 2020)** to assess performance.
+- Identifies **top-growing and declining customers**.
 
-•⁠  ⁠Highlights % growth (21 vs. 20) to assess performance.
+📌 **Business Impact:**  
+Optimizes sales strategy by focusing on high-value customers, re-engaging declining ones, tailoring marketing efforts, and forecasting sales trends for better pricing.
 
-•⁠  ⁠Identifies top-growing and declining customers.
+---
 
-*Business Impact :* Helps optimize sales strategy by focusing on high-value customers, re-engaging declining ones, tailoring marketing efforts based on purchase behavior, and forecasting future sales trends to optimize pricing
+## 💰 Finance Analysis
+**Objective:**
+- Tracks **YoY market sales** and **% achievement vs. target**.
+- Identifies **high-performing vs. underperforming markets**.
+- Highlights **sales trends** for strategic planning.
 
-### Finance Analysis:
-This report evaluates market-wise sales trends (2019–2021) and compares actual sales with 2021 targets to assess performance and growth potential.
+📌 **Business Impact:**  
+Helps allocate resources to high-growth markets, improve weak ones, refine sales targets, predict market trends, and optimize expansion plans.
 
-### Objective:
-•⁠  ⁠Tracks YoY market sales and % achievement vs. target.
+---
 
-•⁠  Identifies high-performing vs. underperforming markets.
+## 📈 P&L Market Analysis
+**Objective:**
+- Tracks **sales, costs, and profitability** across different markets.
+- Highlights **gross margin %** to identify high/low-profit markets.
+- Helps **optimize pricing and cost strategies**.
 
-•⁠  ⁠Highlights sales trends for strategic planning
+📌 **Business Impact:**  
+Focuses on **profit optimization** by prioritizing high-margin markets, reducing costs, adjusting pricing strategies, and investing in high-performing markets.
 
-*Business Impact :* Helps allocate resources to high-growth markets, improve weak ones, assess performance gaps, refine sales targets, predict market trends, and optimize expansion plans.
+---
 
-### P & L Market Analysis:
-This report analyzes market-wise profitability for fiscal years 2019, 2020 and 2021 by evaluating net sales, cost of goods sold (COGS), and gross margin % to assess financial performance.
+## 🚀 Key Features
 
-### Objective
-•⁠  ⁠Tracks sales, costs, and profitability across different markets.
+✅ **Sales Growth Analysis** - Compares yearly revenue changes and trends.  
+✅ **Top Customer Insights** - Identifies high-revenue customers like Amazon & Flipkart.  
+✅ **Market Trends** - Highlights growing and declining customer segments.  
+✅ **Excel Analytics** - Used **formulas, pivot tables, and charts** to drive insights.  
+✅ **SQL Queries** - Ready-to-use SQL scripts for deeper data exploration.  
 
-•⁠  ⁠Highlights gross margin % to identify high and low-profit markets.
-
-•⁠  ⁠Helps optimize pricing and cost strategies for better profitability.
-
-*Business Impact :* Focuses on profit optimization by prioritizing high-margin markets, reducing costs in low-margin ones, adjusting pricing strategies, and investing in markets with strong financial performance.
-
-
-
-###  🚀 Key Features
-
-✅ Sales Growth Analysis - Compares yearly revenue changes and trends.
-
-✅ Top Customer Insights - Identifies high-revenue customers like Amazon & Flipkart.
-
-✅ Market Trends - Highlights growing and declining customer segments.
-
-✅ Power BI Dashboard - Visual representation of key customer metrics.
-
-✅ SQL Queries - Ready-to-use SQL scripts for deeper data exploration.
-
-_
+---
 
 ## 🛠 Installation  
 
-#### *Clone the Repository*
+### 📥 Clone the Repository  
+To install this project, run:  
 
-Install my project, run: 
+```sh
+git clone https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/tree/main
+```
 
-git clone https://github.com/Swagata-j07/AtliQ_Hardware.git
-
-#### 📂 Dataset  
+### 📂 Dataset  
 This project includes sales data for analysis. Download the dataset:  
 
-[Customer Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_customer.csv)
+📌 [Customer Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_customer.csv)  
+📌 [Market Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_market.csv)  
+📌 [Products Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_product.csv)  
+📌 [Fact Sales Monthly (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/fact_sales_monthly.csv.gz)  
 
-[Market Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_market.csv)
+---
 
-[Products Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_product.csv)
+## 📊 Data Analysis Approach  
 
-[Fact_sals_monthly (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/fact_sales_monthly.csv.gz)
+🔹 *Performed analysis using Excel*, leveraging **formulas and pivot tables** for insights.  
+
+### 📌 Excel Formulas & Methods Used  
+✔ **SUM()** – Aggregated total net sales and costs.  
+✔ **Division & Subtraction** – Calculated percentage growth and profit margins.  
+✔ **Pivot Tables** – Summarized and analyzed market-wise performance trends.  
+
+🔹 *Generated insights for business stakeholders* to optimize sales and profitability.  
+
+---
+
+## 🔑 Key Insights  
+
+✅ **Amazon led net sales in 2021** with **$82.1M**, marking a **218.9% YoY growth**, making it the most valuable customer. AtliQ Exclusive followed with **$61.1M**, securing the second-highest revenue.  
+
+✅ **Key Growth Drivers:** Bulk orders, stronger partnerships, increased demand, or strategic pricing shifts.  
+
+✅ **Customer Retention:** Steady sales growth across customers suggests **strong retention** and **potential for expanding premium offerings**.  
+
+✅ **Regional Performance:**  
+- **India ($161.3M)** and **USA ($87.8M)** led in total sales.  
+- However, **target gaps (-$9.6M, -$10.2M)** highlight areas for **sales strategy enhancement**.  
+
+✅ **Revenue Growth:**  
+- **Net sales soared from $87.5M (2019) to $598.9M (2021)**.  
+- This reflects a **204.5% increase**, showcasing **robust business expansion**.  
+
+✅ **Margin Concerns:** Despite rising sales, **gross margin % dropped (-2.3%)**, signaling a **need for cost optimization and pricing adjustments**.  
+
+## 🚀 Usage  
+
+1️⃣ **Open the Power BI dashboard**:  
+   - `Customer_Performance.pbix`  
+   - `Market_Performance.pbix`  
+
+2️⃣ **Apply filters** to analyze:  
+   - **Customer sales trends**  
+   - **Market performance**  
+   - **Profitability insights**  
+
+3️⃣ **Use SQL queries to extract key insights:**  
+
+### 🔍 Retrieve the top 5 markets by net sales
+```sql
+SELECT market, SUM(net_sales) AS total_sales 
+FROM market_performance 
+GROUP BY market 
+ORDER BY total_sales DESC 
+LIMIT 5;
+```
+
+
+## 📩 Contact & Contributions
+If you'd like to contribute, have questions, or need further insights, feel free to connect!
+
+🔗 GitHub Profile: https://github.com/swaroopsamuel
+
+📧 Email: swaroopn80@gmail.com
+
+💼 LinkedIn: https://www.linkedin.com/in/swaroopnakka/
