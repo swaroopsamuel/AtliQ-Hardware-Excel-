@@ -66,10 +66,10 @@ git clone https://github.com/Swagata-j07/AtliQ_Hardware.git
 #### 📂 Dataset  
 This project includes sales data for analysis. Download the dataset:  
 
-[Customer Data (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/dim_customer.csv)
+[Customer Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_customer.csv)
 
-[Market Data (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/dim_market.csv)
+[Market Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_market.csv)
 
-[Products Data (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/dim_product.csv)
+[Products Data (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/dim_product.csv)
 
-[Fact_sals_monthly (CSV)](https://github.com/Swagata-j07/AtliQ_Hardware/blob/main/fact_sales_monthly.csv.gz)
+[Fact_sals_monthly (CSV)](https://github.com/swaroopsamuel/AtliQ-Hardware-Excel-/blob/main/fact_sales_monthly.csv.gz)
